@@ -1,0 +1,110 @@
+.signup-form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    vertical-align:middle;
+}
+
+.signup-form div{
+    margin: 15px;
+    width: 40vh;
+}
+
+.signup-form div span{
+    text-align: center;
+}
+
+.signup-form input{
+    padding: 10px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+.email, .password, .signup-code, .name, .surname, .avatar{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    align-self: center;
+    
+}
+
+.signup-form button{
+    align-self: center;
+    width: 20vh;
+    padding: 0.5rem 1.25rem;
+    background-color: #181c24;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 1rem;
+
+}
+
+.signup-form button:hover{
+    cursor: pointer;
+}
+
+.container h2{
+    font-weight: 600;
+}
+
+.notMember{
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+
+.notMember a{
+    text-decoration: none;
+}
+
+.notMember span{
+    transition: 1s;
+    font-weight: 600;
+}
+.notMember span:hover{
+    transition: 1s;
+    border-bottom: 1px solid black;
+}
+
+#avatar::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#avatar {
+    cursor: pointer;
+    color: transparent;
+}
+
+#avatar::before {
+    content: 'Avatar';
+    color: gray;
+    font-weight: normal;
+    outline: none;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+#avatar:active {
+    outline: 0;
+}
+
+.error{
+    font-weight: 600;
+    margin: 5px 0;
+    color: red;
+}
