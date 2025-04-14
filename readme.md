@@ -30,12 +30,17 @@ This project includes a Docker-based environment to easily run the application a
 
 4. Visit the PHP application at http://localhost:8000
 
-### 🗄️ MySQL Information
+### 🗄️ MySQL Configuration
 
-- **Host:** mysql
+Database connection information is configured in the `docker-compose.yml` file with the following default values:
+
+- **Host:** localhost
+- **Database:** journal
 - **User:** user
 - **Password:** userpassword
-- **Database:** giornalino
+- **Root Password:** rootpassword
+
+You can modify these values in the `docker-compose.yml` file as needed. The PHP application will automatically use the updated connection information.
 
 ### 👥 Database Users
 
