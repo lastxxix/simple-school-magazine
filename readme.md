@@ -28,7 +28,7 @@ This project includes a Docker-based environment to easily run the application a
     docker-compose up --build
     ```
 
-4. Visit the PHP application at http://localhost:8000
+4. Visit the PHP application at <http://localhost:8000>
 
 ### 🗄️ MySQL Configuration
 
