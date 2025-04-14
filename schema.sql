@@ -83,19 +83,19 @@ ALTER TABLE `users`
 
 -- AUTO_INCREMENT per la tabella `categories`
 ALTER TABLE `categories`
-  MODIFY `catId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `catId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 -- AUTO_INCREMENT per la tabella `hotwords`
 ALTER TABLE `hotwords`
-  MODIFY `idHotword` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `idHotword` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 -- AUTO_INCREMENT per la tabella `posts`
 ALTER TABLE `posts`
-  MODIFY `postId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `postId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 -- AUTO_INCREMENT per la tabella `users`
 ALTER TABLE `users`
-  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 -- Limiti per le tabelle scaricate
 

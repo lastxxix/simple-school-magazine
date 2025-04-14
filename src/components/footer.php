@@ -1,7 +1,7 @@
 <?php if(!isset($_SESSION)) {session_start();}?>
 <!-- Footer -->
 <footer>
-    <span> &copy; Davide Cossidente 5CIA - <?php echo date("l d F Y");?></span>
+    <span> &copy; Davide Cossidente - <?php echo date("l d F Y");?></span>
 </footer>
 
 <!-- Chiudo connessioni aperte -->
